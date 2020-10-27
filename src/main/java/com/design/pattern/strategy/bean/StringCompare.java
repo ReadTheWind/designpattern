@@ -1,4 +1,6 @@
-package com.design.pattern.strategy;
+package com.design.pattern.strategy.bean;
+
+import com.design.pattern.strategy.abstractSimple.AbstractSorter;
 
 /**
  * @Description: 字符串比较

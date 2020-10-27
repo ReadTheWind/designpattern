@@ -1,6 +1,7 @@
-package com.design.pattern.strategy;
+package com.design.pattern.strategy.abstractSimple;
 
-import java.util.Arrays;
+import com.design.pattern.strategy.bean.IntCompare;
+import com.design.pattern.strategy.bean.StringCompare;
 
 /**
  * 策略基于 compareable 分析
@@ -10,6 +11,7 @@ import java.util.Arrays;
  **/
 public class StrategyTest {
 
+    // 并非策略模式，只是抽象了一层，相对写死的版本比较灵活
     public static void main(String[] args) {
         IntCompare intCompare = new IntCompare(3);
         IntCompare intCompare2 = new IntCompare(1);

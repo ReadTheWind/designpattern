@@ -1,4 +1,4 @@
-package com.design.pattern.strategy;
+package com.design.pattern.strategy.abstractSimple;
 
 /**
  * @Description: 排序类父类

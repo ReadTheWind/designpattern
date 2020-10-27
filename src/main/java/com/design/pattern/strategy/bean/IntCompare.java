@@ -1,4 +1,6 @@
-package com.design.pattern.strategy;
+package com.design.pattern.strategy.bean;
+
+import com.design.pattern.strategy.abstractSimple.AbstractSorter;
 
 /**
  * @Description: 整数比较
@@ -24,6 +26,10 @@ public class IntCompare extends AbstractSorter<IntCompare> {
             return 1;
         }
         return 0;
+    }
+
+    public Integer getIntegerValue() {
+        return integerValue;
     }
 
     @Override
